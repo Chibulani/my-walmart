@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>my walmart</title>
+    <body>
+        <div id="top">
+            <div class="tab">
+                <button class="tab-1" onclick="openCity(event, 'Pickup & delivery')">Pickup & delivery</button>
+                <button class="tab-2" onclick="openCity(event, 'Walmart.com')">Walmart.com</button>
+                <!-- <button class="tablinks" onclick= document.get  >Tokyo</button> -->
+            </div>
+        </div> 
+
+        <menu class="sec-1">
+            <div class="left-bar">
+                <div class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <script>
+                    function myFunction(x) {
+                    x.classList.toggle("change");
+                    }
+                </script>
+                <div class="nav-bar">
+                    <a class="active" href="index.html"><h3>Walmart</h3></a>
+                </div>
+            </div>
+
+            <form class="search-box">
+                <input type="text" placeholder="Search Walmart.com">
+                <button type="submit"><i class="fas fa-search" aria-hidden="true"></i></button>
+                </button>
+                <!-- <button type="submit"><i class="fas fa-angle-down"></i></button> -->
+                </button>            
+            </form>                
+            
+            <nav class="nav-right">
+                <section class="acc">
+                    <i class="fas fa-user" aria-hidden="true"></i>
+                    <a id="tab-3" href="#">Account</a>
+                </section>
+                <section class="my-item">
+                    <i class="far fa-heart" aria-hidden="true"></i>
+                    <a id="tab-4" href="#">My Items</a>
+                </section>
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+            </nav>
+        </menu>
+
+        <main class="banner">
+            <section class="sec-2"> 
+                <a href="index.html">Walmart</a>
+                <h2></h2>
+                <i class="fas fa-plus"></i>
+                <div>
+                    <p style="color: white; font-size: 14px;">Free shipping with no order minimum required. Restriction apply.</p>
+                    <a href="#" style="font-size: 12.5px;">Try it free</a>
+                </div>
+            </section>
+        </main>
+
+        <div class="slide-cover">
+            <div class="left-side">
+                <h1 style="color: white;">Great gifts for Dad</h1>
+                <p>Father's Day finds he'll love, all at amazing price</p>
+            </div>
+            <div id="cover-img">
+                <img src="/image/first design (1).jpg" alt="">
+            </div>
+        </div>
+
+        <div class="compartment">
+            <div class="container-1">
+                <h4>Pickup or delivery</h4>
+                <div>
+                    <div id="container-img1">
+                        <img src="image/shopping bag.jpg" alt="groceries">
+                    </div>
+                    <h4>Groceries and even more</h4>
+                    <p>1919 Davis St, San leandro</p>
+                    <a href="#" class="button">Shop now</a>
+                </div>
+            </div>
+            <div class="container-1">
+                <h4>Earn 5% cash back</h4>
+                <div>
+                    <div id="container-img2">
+                        <img src="/image/Two Atm card.jpg" alt="groceries">
+                    </div>
+                    <h4 style="padding-top: 2.5rem;">Earn 5% cash back</h4>
+                    <p>every day on Walmart.com</p>
+                    <a href="#"><button>Shop now</button></a>
+                </div>
+            </div>
+            <div class="container-1">
+                <h4>Pickup or delivery</h4>
+                <div>
+                    <div id="container-img3">
+                        <img src="/image/membership picture.jpg" alt="groceries">
+                    </div>
+                    <h4>Groceries and even more</h4>
+                    <p>1919 Davis St, San leandro</p>
+                    <a href="#" class="button">Shop now</a>
+                </div>
+            </div>
+        </div>
+        <article>
+            <div class="category-1">
+                <h3>Shop by category</h3>
+                <section class="sec-3">
+                    <a href="#">see more</a>
+                    <i class="fas fa-plus"></i>
+                </section>
+                <div class="row">
+                    <div class="column">
+                        <div class="img1">
+                            <a href="#">
+                                <img src="/image/Ps4 game.jpg" alt="">
+                                <p class="centeralign">video games</p>
+                            </a>
+                        </div>
+                        <div class="img2">
+                            <a href="#">
+                                <img src="/image/dress-1.jpg" alt="">
+                                <p class="centeralign">women's clothing</p>
+                            </a>
+                        </div>
+                        <div class="img3">
+                            <a href="#">
+                                <img src="/image/Samsung tv.jpg" alt="">
+                                <p class="centeralign">Electronics</p>
+                            </a>
+                        </div>
+                        <div class="img4">
+                            <a href="#">
+                                <img src="/image/patio.jpg" alt="">
+                                <p class="centeralign">Patio & garden</p>
+                            </a>
+                        </div>
+                        <div class="img5">
+                            <a href="#">
+                                <img src="/image/double seater.jpg" alt="">
+                                <p class="centeralign">Furniture</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="img6">
+                            <a href="#">
+                                <img src="/image/photo album.jpg" alt="">
+                                <p class="centeralign">photo</p>
+                            </a>
+                        </div>
+                        <div class="img7">
+                            <a href="#">
+                                <img src="/image/boy's clothing.jpeg" alt="">
+                                <p class="centeralign">boy's clothing</p>
+                            </a>
+                        </div>
+                        <div class="img8">
+                            <a href="#">
+                                <img src="/image/girl's clothing.jpg" alt="">
+                                <p class="centeralign">girl's clothing</p>
+                            </a>
+                        </div>
+                        <div class="img9">
+                            <a href="#">
+                                <img src="/image/plus seize clothing.jpg" alt="">
+                                <p class="centeralign"> plus size clothing</p>
+                            </a>
+                        </div>
+                        <div class="img10">
+                            <a href="#">
+                                <img src="/image/auto & tire.jpg" alt="">
+                                <p class="centeralign">auto & tire</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bacyard">
+                <h3>Backyard fun</h3>
+                <div class="avatar">
+                    <div class="av1">
+                        <a href="#">
+                            <img src="/image/grill machine.jpg">
+                            <p>Grilling Essential</p>
+                        </a>
+                    </div>
+                    <div class="av2">
+                        <a href="#">
+                            <img src="/image/backyard cooking.jpg" alt="">
+                            <p>backyard cooking</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="/image/patio must have.jpg" alt="">
+                            <p>patio must have</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="/image/lawn game.jpeg" alt="">
+                            <p>lawn games</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="outdoor">
+                <h3> Great outdoor brands</h3>
+                <div class="round-photo">
+                    <div>
+                        <a href="#">
+                            <img src="/image/slumber jack.jpeg" alt="">
+                            <p>Slumber jack from $50</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="/image/Real Eddie bauer.jpeg" alt="">
+                            <p>Eddie Bauer from $20</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="/image/PGA tour.jpeg" alt="">
+                            <p>PGA TOUR items from $78</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="/image/body glove.jpg" alt="">
+                            <p>Body Glove gear from $25</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ssbs">
+                <h3> Small space, big style</h3>
+                <div class="round-photo">
+                    <div>
+                        <a href="#">
+                            <img src="/image/storage under $20.jpeg" alt="">
+                            <p>Storage under $20</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="/image/furniture under $50.jpg" alt="">
+                            <p>Furniture under $150</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="/image/bedding pic.jpg" alt="">
+                            <p>Bedding under $30</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="/image/cooling fan.jpg" alt="">
+                            <p>Cooling from $25</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slideshow-container">
+                <div class="mySlide fade">
+                    <h3>Garden essentials</h3>
+                    <div class="product-card">
+                        <img src="/image/metal leaf rake.jpg" alt="">
+                        <p>The Original Big joe Bean Bag Chair, Spicy Lime Green SmartMax</p>
+                        <p class="amount">$62.00 - $69.00</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/cordless hedge.jpg" alt="">
+                        <p>The Original Big joe Bean Bag Chair, Spicy Lime Green SmartMax</p>
+                        <p class="amount">$62.00 - $69.00</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/ready to use weed.jpg" alt="">
+                        <p>The Original Big joe Bean Bag Chair, Spicy Lime Green SmartMax</p>
+                        <p class="amount">$62.00 - $69.00</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/metal leaf rake.jpg" alt="">
+                        <p>The Original Big joe Bean Bag Chair, Spicy Lime Green SmartMax</p>
+                        <p class="amount">$62.00 - $69.00</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+
+                <!-- Next and previous button -->
+                <a class="prev" onclick="plusSlides(-1)">&#1094</a>
+                <a class="prev" onclick="plusSlides(-1)">&#1095</a>
+            </div>
+            <br>
+
+            <!-- The dot/circle -->
+            <div style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>  
+        </article>
+
+        <footer style="background-color: white; width: 100%;">
+            <div class="contact">
+                <div style="background-color: white;">
+                    <form class="mail-box">
+                        <input type="text" placeholder="Enter email for weekly newsletter.">
+                        <button type="submit">Sign up</button>
+                        <!-- <button type="submit"><i class="fas fa-angle-down"></i></button> -->
+                        </button>            
+                    </form>  
+                </div>
+                <div class="social-medias">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                </div>
+                <div style="display: flex; background-color: white; padding-left: 10%;">
+                    <i style="color: black; padding: 16px;" class="fas fa-mobile-alt"></i>
+                    <p style="padding: 12px;">Mobile apps</p>
+                </div>
+            </div>
+
+            <div class="end-part">
+                <div class="service">
+                    <div><span>Walmart Service</span>
+                    </div>
+                    <ul>
+                        <li><span><a href="#">Walmart+</a></span></li>
+                        <li><span><a href="#">Grocery pickup & Delivery</a></span> </li>
+                        <li><span><a href="#">MoneyCenter</a></span></li>
+                        <li><span><a href="#">Walmart Credit Card</a></span></li>
+                        <li><span><a href="#">Walmart Pay</a></span></li>
+                        <li><span><a href="#">Walmart Health</a></span></li>
+                        <li><span><a href="#">Weekly Ad</a></span></li>
+                        <li><span><a href="#">Other Services</a></span></li>
+                    </ul>
+                </div>
+    
+                <div class="service">
+                    <div><span>Get to Know Us</span>
+                    </div>
+                    <ul>
+                        <li><span><a href="#">Our Company</a></span></li>
+                        <li><span><a href="#">Store Directory</a></span></li>
+                        <li><span><a href="#">Digital Museum</a></span></li>
+                        <li><span><a href="#">Our Suppliers</a></span></li>
+                        <li><span><a href="#">Sell on Walmart.com</a></span></li>
+                        <li><span><a href="#">Advertise With Us</a></span></li>
+                        <li><span><a href="#">Careers</a></span></li>
+                    </ul>
+                </div>
+    
+                <div class="service">
+                    <div><span>Walmart.com</span>
+                    </div>
+                    <ul>
+                        <li><span><a href="#">Walmart Labs</a></span></li>
+                        <li><span><a href="#">Our Ads</a></span></li>
+                        <li><span><a href="#">Terms of Use</a></span></li>
+                        <li><span><a href="#">Privacy & Security</a></span></li>
+                        <li><span><a href="#">CA Privacy Rights</a></span></li>
+                        <li><span><a href="#">Do Not Sell My Personal Information</a></span></li>
+                        <li><span><a href="#">Request My Personal Informationa </a></span></li>
+                        <li><span><a href="#">Tax Exempt Program</a></span></li>
+                        <li><span><a href="#">California Supply Chain Security Act</a></span></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="service">
+                    <div><span>Customer Service</span>
+                    </div>
+                    <ul>
+                        <li><span><a href="#">Help center</a></span></li>
+                        <li><span><a href="#">Retuns</a></span> </li>
+                        <li><span><a href="#">Product Recalls</a></span></li>
+                        <li><span><a href="#">Accessibility</a></span></li>
+                        <li><span><a href="#">Contact Us</a></span></li>
+                        <li><span><a href="#">Store Pickup</a></span></li>
+                    </ul>
+                </div>
+
+                <div class="service">
+                    <div><span>In The Spotlight</span>
+                    </div>
+                    <ul>
+                        <li><span><a href="#">Portable Air Conditioners</a></span></li>
+                        <li><span><a href="#">Ps4</a></span> </li>
+                        <li><span><a href="#">Trampoline</a></span></li>
+                        <li><span><a href="#">Skateboard</a></span></li>
+                        <li><span><a href="#">Outdoor Furniture</a></span></li>
+                        <li><span><a href="#">Nintendo Switch Lite</a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <end class="our-brands">
+                <!-- <div style="margin: 15px;"><span>Shop Our Brands</span></div> -->
+                <div class="brands">
+                    <span style="margin: 15px;">Shop Our Brands</span>
+                    <ul>
+                        <li><span><a href="#">Allswell.</a></span></li>
+                        <li><span><a href="#">Art</a></span></li>
+                        <li><span><a href="#">BONOBOS</a></span></li>
+                        <li><span><a href="#">E L O Q U I I</a></span></li>
+                        <li><span><a href="#">HAYNEEDLE</a></span></li>
+                        <li><span><a href="#">Moosesaw</a></span></li>
+                        <li><span><a href="#">Walmart</a></span></li>
+                        <li><span><a href="#">Walmart eBooks</a></span></li>
+                        <li><span><a href="#">Walmart Photo</a></span></li>
+                        <li><span><a href="#">Sam's club</a></span></li>
+                        <li><span><a href="#">Walmart+</a></span></li>
+                    </ul>
+                </div>
+                <hr size="3" width="70%" color="#8A8A8A" text-align="left" margin-left=8>
+                <!-- <hr style="size: 10px; width: 50%; text-align: left; color: #8A8A8A;"> -->
+                <div class="after-line">
+                    <p style="margin-left: 40px;">2021 Walmart All Right Reserved.</p>
+                    <p>To ensure we able to help you as best 
+                        we can, please include 
+                        your reference number. UY2ASIEHJF
+                    </p>
+                </div>
+            </end>
+        </footer>
+        
+    </body>
+</html>
